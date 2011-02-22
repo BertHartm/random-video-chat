@@ -1,0 +1,10 @@
+a web / flash based random video chat program, meant mostly as demonstration piece at the moment. Inspired by chatroulette / omegle type websites.
+
+I do not recommend running this code in a production environment. It's meant primarily for educational purposes.
+
+All code here is released under GPLv3
+
+A few notes on setup:
+
+1) You'll need to update the address of the rtmfp server in the chat.as script. I highly recommend using the Cumulus project (https://github.com/OpenRTMFP/Cumulus) for this.
+2) The rails instance is only set up with a development configuration at the moment. It seems multithreading breaks the "reload the code everytime" portion of functionality for rails server, so it might behave a little differently.
