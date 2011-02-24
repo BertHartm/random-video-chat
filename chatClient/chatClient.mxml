@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application name="Peer_to_Peer_chat"
+		xmlns:mx="http://www.adobe.com/2006/mxml"
+		layout="vertical"
+		verticalAlign="middle"
+		backgroundColor="#AAAAAAA"
+		applicationComplete="startup();">
+ 
+    <mx:Script source="chat.as" />
+
+    <mx:VideoDisplay id="videoDisplay"
+		     width="320"
+		     height="240" />
+ 
+    <mx:Button id="next"
+	       label="Next"
+	       click="peerSearch();" />
+ 
+</mx:Application>
